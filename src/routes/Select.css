@@ -1,0 +1,143 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+
+}
+
+div,ul{
+    list-style-type:none;
+}
+#select_header{
+    margin: 25px;
+
+}
+.select_header_1    {
+
+    padding-bottom: 10px;
+    border-bottom: solid 5px #9bc32a;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+.select_header_2{
+    color:grey;
+    font-size:15px;
+    font-weight: normal;
+    float:right;
+    margin-top:10px;
+    margin-right:10px;
+
+}
+
+
+.game_title{
+
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.comment{
+    margin: 10px;
+    color:#888888;
+    font-size: 0.8em;
+}
+
+
+
+
+.select_title h4{
+
+    padding-bottom: 10px;
+    border-bottom: solid 5px #9bc32a;
+    font-size: 20;
+    margin-left: 15px;
+    font-weight:bold;
+
+}
+
+.select_title h4 span{
+    color:#888888;
+    font-size: 15px;
+    font-weight: normal;
+    float:right;
+    padding-top: 11px;
+    
+}
+
+.select_result{
+    width: 100%;
+    margin-left:1.5%;
+    margin: 60px 30px 30px 100px;
+
+
+}
+
+.select_result .item{
+    width: 300px;
+    height: 400px;
+ 
+    margin-bottom:5px;
+    float:left;
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+.select_result .img{
+
+    width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+
+
+.button_liked{
+    margin: 8px;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:40px;
+    font-size:15px;
+    font-weight: bold;
+    padding:0 5em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+.button_liked{
+    background:#fff;
+    color:#1AAB8A;
+}
+.button_liked:before,.button_liked:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+}
+.button_liked:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.button_liked:hover:before,.button_liked:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}

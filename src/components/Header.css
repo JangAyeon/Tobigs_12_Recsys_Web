@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li,ul{
+    list-style-type:none;
+}
+
+header {
+
+    height:50px;
+    width:100%;
+    background: #263343;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+.Header_Title, .Header_Title:hover{
+    text-decoration:none;
+    color:white;
+  }
+.Header_Menu{
+    float:right;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+
+.item{
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    font-weight: bold;
+    color:white;
+}
+  
