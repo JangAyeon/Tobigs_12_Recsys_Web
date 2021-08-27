@@ -108,7 +108,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 >**useEffect**, **useState**로 해당 ID에 맞는 추천 게임들 받는 API 호출해 Mount하기<br>
 >return에서는 게임들이 Mount되면 map으로 게임 한 개에 대한 title, image, summary, genre1, genre2를 각각 변수에 할당해 **GetRecList**의 props로 전달<br>
 2. **GetRecList**
->props로 받아 온 title, image, summary, genre1, genre2를 적절한 html 위치에 맞춰 화면에 띄움<br>
+>props로 받아 온 title, image, summary, genre1, genre2를 적절한 html 속성에 맞춰 게임 추천 목록 구성 <br>
 
 
 # 시연 영상
