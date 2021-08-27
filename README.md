@@ -17,6 +17,15 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 </table>
 
 #### 겜플리 API 문서 : https://tobigs-game-reco.herokuapp.com/docs <br>
+#### 사용 언어 : <br>
+<table>
+  <tr>
+    <td align="left"><img src="https://img.shields.io/badge/-HTML5-313131?style=flat-square&labelColor=313131&logo=html5&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+        <td align="left"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+            <td align="left"><img src="https://img.shields.io/badge/-React-313131?style=flat-square&labelColor=313131&logo=react&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+  </tr>
+</table>
+
 #### 기능 <br>
 &nbsp;&nbsp;&nbsp;1. API로 받은 랜덤 20개 게임의 image, title, summary와 함께 게임 목록 구성 <br>
 &nbsp;&nbsp;&nbsp;2. User가 게임 목록에서 선호하는 게임의 버튼을 누르면 해당 게임 ID를 API로 전달 <br>
@@ -66,3 +75,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
     <td align="left"><img src="https://user-images.githubusercontent.com/67853616/131105755-c583bf06-a075-4ce7-819d-7b5bc4b711e3.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
+
+
+
+
