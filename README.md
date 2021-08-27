@@ -18,11 +18,13 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 
 #### 겜플리 API 문서 : https://tobigs-game-reco.herokuapp.com/docs <br>
 #### 사용 언어 : <br>
+
 <table>
   <tr>
-    <td align="left"><img src="https://img.shields.io/badge/-HTML5-313131?style=flat-square&labelColor=313131&logo=html5&logoColor=white&color=313131" width="100px" alt=""/></a></td>
-        <td align="left"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131" width="100px" alt=""/></a></td>
-            <td align="left"><img src="https://img.shields.io/badge/-React-313131?style=flat-square&labelColor=313131&logo=react&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+    <td align="left"><img src="https://img.shields.io/badge/-HTML5-313131?style=flat-square&labelColor=313131&logo=html5&logoColor=white&color=313131" width="100px" alt=""/></a>   </td>
+    <td align="left"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+     <td align="left"><img src="https://img.shields.io/badge/-React-313131?style=flat-square&labelColor=313131&logo=react&logoColor=white&color=313131" width="100px" alt=""/></a></td>
+     <td align="left"><img src="https://img.shields.io/badge/-Javascript-313131?style=flat-square&labelColor=313131&logo=javascript&logoColor=white&color=313131" width="100px" alt=""/></a></td>
   </tr>
 </table>
 
