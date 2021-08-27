@@ -35,7 +35,7 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 &nbsp;&nbsp;&nbsp;4. 추천 게임의 image, title, genre1, genre2와 함께 게임 추천 목록 구성  <br>
 
 # 겜플리 웹
-### 메인랜딩페이지
+### 메인 랜딩 페이지
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/67853616/131102653-92b31d9c-76b5-47f1-b522-66b8b530b440.png" width="720px" alt=""/></a></td>
@@ -62,22 +62,51 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
     <td align="left"><img src="https://user-images.githubusercontent.com/67853616/131104759-5be6d0d0-3208-4b92-acd3-e18b3000004d.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
+
+1. Loading : class component 기반 ver
+>**state**에 **isLoading**, **data**, **cmd** 속성 **defualt** 값 정의<br>
+>**render**에서 **this.state** 불러오고 **async**와 **await**와 **axios.get** 이용해 랜덤으로 게임 받는 API 호출<br>
+>API로부터 data를 다 받기 전까지 **isLoading**이 **true** 값으로 화면에 `Loading...` 띄우기<br>
+
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/67853616/131104977-181ebb13-4381-4e1d-89c4-9b00591de163.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
+
+2. 랜덤 게임 목록 : class component & hook 기반 ver
+>**componentDidMount**는 component 만들어지고 rendering 완료되며 실행됨 <br>
+>**isLoading**이 **false** 값로 바뀌면서 게임들이 **map**으로 한개씩 image, title, summary 칸에 맵핑됨 
+
+
+
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/67853616/131105472-76388458-6ccd-4f61-92cd-f7526b382f01.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
+
+3. 랜덤 게인 선택 : 
+>click, hover 하면 button의 스타일 속성 변경<br>
+>해당 게임 클릭 시 게임 ID 전달하여 해당 게임에 맞는 게임 추천 목록 받아오기<br>
+```
+<Link to={`/recos/${data.game_id}`}>
+```
+
+
+
+### 게임 추천 페이지
+
 <table>
   <tr>
     <td align="left"><img src="https://user-images.githubusercontent.com/67853616/131105755-c583bf06-a075-4ce7-819d-7b5bc4b711e3.png" width="720px" alt=""/></a></td>
   </tr>
 </table>
 
-
+1. 사용자가 선택한 게임의 고유 ID에 맞는 게임 추천 Data 가져오기 : hook ver
+>**useParams**로 게임 목록 페이지에서 사용자가 선택한 게임의 고유 ID 받아오기
+>**useEffect**, **useState**로 해당 ID에 맞는 추천 게임들 받는 API 호출해 Mount하기
+>**GetDetail**의 return에서는 게임들이 Mount되면 map으로 게임 한 개에 대한 title, image, summary, genre1, genre2를 각각 변수에 할당해 **GetRecList**의 props로 전달
+>**GetRecList**에서는 props로 받아 온 title, image, summary, genre1, genre2를 적절한 html 위치에 맞춰 화면에 띄움
 
 
