@@ -112,4 +112,4 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 
 
 # 시연 영상
-[1](Steam Game Recommender System - Chrome 2021-07-16 17-47-13.mp4)
+[1] https://github.com/JangAyeon/Tobigs_12_Recsys_Web/blob/master/Steam%20Game%20Recommender%20System%20-%20Chrome%202021-07-16%2017-47-13.mp4
