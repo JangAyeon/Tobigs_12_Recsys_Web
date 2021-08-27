@@ -111,3 +111,5 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
 >props로 받아 온 title, image, summary, genre1, genre2를 적절한 html 위치에 맞춰 화면에 띄움<br>
 
 
+# 시연 영상
+[1](Steam Game Recommender System - Chrome 2021-07-16 17-47-13.mp4)
