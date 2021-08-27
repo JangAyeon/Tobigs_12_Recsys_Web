@@ -103,10 +103,11 @@ Steam에서 제공하는 Multimodal 데이터를 다양한 방법으로 이용�
   </tr>
 </table>
 
-1. 사용자가 선택한 게임의 고유 ID에 맞는 게임 추천 Data 가져오기 : hook ver
->**useParams**로 게임 목록 페이지에서 사용자가 선택한 게임의 고유 ID 받아오기
->**useEffect**, **useState**로 해당 ID에 맞는 추천 게임들 받는 API 호출해 Mount하기
->**GetDetail**의 return에서는 게임들이 Mount되면 map으로 게임 한 개에 대한 title, image, summary, genre1, genre2를 각각 변수에 할당해 **GetRecList**의 props로 전달
->**GetRecList**에서는 props로 받아 온 title, image, summary, genre1, genre2를 적절한 html 위치에 맞춰 화면에 띄움
+1. **GetDetail** : 사용자가 선택한 게임의 고유 ID에 맞는 게임 추천 Data 가져오기 : hook ver
+>**useParams**로 게임 목록 페이지에서 사용자가 선택한 게임의 고유 ID 받아오기<br>
+>**useEffect**, **useState**로 해당 ID에 맞는 추천 게임들 받는 API 호출해 Mount하기<br>
+>return에서는 게임들이 Mount되면 map으로 게임 한 개에 대한 title, image, summary, genre1, genre2를 각각 변수에 할당해 **GetRecList**의 props로 전달<br>
+2. **GetRecList**
+>props로 받아 온 title, image, summary, genre1, genre2를 적절한 html 위치에 맞춰 화면에 띄움<br>
 
 
